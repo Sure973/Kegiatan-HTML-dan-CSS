@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #555;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.loginbox {
+    margin: 150px 0px 0px 0px;
+    flex-basis: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.loginbox h2 {
+    border-bottom: 1px solid #cccccc;
+    color: #555;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0 0 20px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #cccccc;
+}
+
+input[type="submit"] {
+    background-color: #038ade;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #025487;
+} 
